@@ -34,7 +34,7 @@ body {
 
 .keys {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 8px;
 }
 
@@ -54,4 +54,25 @@ button:hover {
 
 .key-wide {
   grid-column: span 3;
+}
+
+.key-zero {
+  grid-column: span 2;
+}
+
+.key-eq {
+  grid-column: span 2;
+  background: #2563eb;
+}
+
+.key-eq:hover {
+  background: #1d4ed8;
+}
+
+.key-op {
+  background: #d97706;
+}
+
+.key-op:hover {
+  background: #b45309;
 }
